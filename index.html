@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>PUSPA.DEV</title>
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="loader"></div>
+
+
+    <!-- Navbar -->
+    <nav class="nav">
+        <div class="logo">『Puspa』</div>
+
+        <div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- hero-section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span>Puspalal Chaudhary</span></h1>
+                <p id="hero-text" class="fade-text">I’m a Frontend Web Developer.</p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="./assests/RESUME.pdf" class="btn secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./images/pp.png" alt="Profile Image" />
+            </div>
+        </div>
+    </section>
+
+    <!-- about me -->
+    <section class="about-section" id="about">
+        <h2>About Me</h2>
+
+        <!-- Education Timeline -->
+        <div class="education">
+            <h3>Education</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2017 - 2021</div>
+                    <div class="timeline-content">
+                        <h4>Bachelor in Computer Science and Information Technology</h4>
+                        <p>Farwestern University, Kanchanpur</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2015 - 2017</div>
+                    <div class="timeline-content">
+                        <h4>+2 Science</h4>
+                        <p>Radiant HSS, Kanchanpur</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Up to 2015</div>
+                    <div class="timeline-content">
+                        <h4>School Level</h4>
+                        <p>Bright Star Boarding School, Kanchanpur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills  -->
+        <div class="skills">
+            <h3>Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
+                <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="skill-card"><i class="fab fa-react"></i><span>React</span></div>
+                <div class="skill-card"><i class="fas fa-wind"></i><span>Tailwind CSS</span></div>
+                <div class="skill-card"><i class="fas fa-fire"></i><span>Firebase</span></div>
+                <div class="skill-card"><i class="fab fa-php"></i><span>PHP</span></div>
+                <div class="skill-card"><i class="fas fa-database"></i><span>MySQL</span></div>
+                <div class="skill-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="skill-card"><i class="fab fa-wordpress"></i><span>WordPress</span></div>
+                <div class="skill-card"><i class="fa-solid fa-chart-simple"></i><span>SEO</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects-section -->
+    <section class="projects-section" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="./images/project1.png" alt="Project 1" onclick="showDetails('project1')" />
+                <h3>School</h3>
+                <div class="buttons">
+                    <a href="https://brightstarboardingschool.vercel.app/" target="_blank" class="btn-project">View</a>
+                    <a href="https://github.com/puspalal12/bright-start-boarding-school" target="_blank"
+                        class="btn-project github">GitHub</a>
+                </div>
+                <div class="project-detail" id="project1">
+                    <p><strong>Description:</strong> This is a detailed description of School Website.</p>
+                    <p><strong>Tech Stack:</strong> React,Tailwind,AOS animations</p>
+                    <p><strong>Features:</strong> Responsive design, inline detail view, animations</p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="images/project2.png" alt="Project 2" onclick="showDetails('project2')" />
+                <h3>organization</h3>
+                <div class="buttons">
+                    <a href="https://react-belauri-5.vercel.app/" target="_blank" class="btn-project">View</a>
+                    <a href="https://github.com/puspalal12/React-Belauri-5" target="_blank"
+                        class="btn-project github">GitHub</a>
+                </div>
+                <div class="project-detail" id="project2">
+                    <p><strong>Description:</strong> This is a detailed description of organization Website.</p>
+                    <p><strong>Tech Stack:</strong> React.js, Tailwind</p>
+                    <p><strong>Features:</strong> show notices,photos of organization.</p>
+                </div>
+            </div>
+
+            <!-- project-3 -->
+            <div class="project-card">
+                <img src="./images/project3.png" alt="Project 3" onclick="showDetails('project3')" />
+                <h3>Task Manager</h3>
+                <div class="buttons">
+                    <a href="https://eb-nu.vercel.app/" target="_blank" class="btn-project">View</a>
+                    <a href="https://github.com/puspalal12/eb" target="_blank" class="btn-project github">GitHub</a>
+                </div>
+                <div class="project-detail" id="project3">
+                    <p><strong>Description:</strong> This is a detailed description of Task Manager.</p>
+                    <p><strong>Tech Stack:</strong> React,Tailwind</p>
+                    <p><strong>Features:</strong> Responsive design, concept of local storage, add edit delete the
+                        tasks.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact-section -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Send Me a Message</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+                <p><i class="fas fa-phone"></i> +977-9765324051</p>
+                <p><i class="fas fa-envelope"></i> puspalalchaudhary86@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>&copy; 2025 「Puspa」. All rights reserved.</p>
+    </footer>
+
+<button id="backToTop" title="Go to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Your External JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
