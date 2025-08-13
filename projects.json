@@ -1,0 +1,50 @@
+[
+  {
+    "id": "project1",
+    "title": "School",
+    "image": "./images/project1.png",
+    "date": "2023-11-05",
+    "alt": "School Website",
+    "liveUrl": "https://brightstarboardingschool.vercel.app/",
+    "githubUrl": "https://github.com/puspalal12/bright-start-boarding-school",
+    "description": "This is a detailed description of School Website.",
+    "techStack": "React,Tailwind,AOS animations",
+    "features": "Responsive design, inline detail view, animations"
+  },
+  {
+    "id": "project2",
+    "title": "organization",
+    "image": "./images/project2.png",
+    "date": "2023-12-05",
+    "alt": "Organization Website",
+    "liveUrl": "https://react-belauri-5.vercel.app/",
+    "githubUrl": "https://github.com/puspalal12/React-Belauri-5",
+    "description": "This is a detailed description of organization Website.",
+    "techStack": "React.js, Tailwind",
+    "features": "show notices,photos of organization."
+  },
+  {
+    "id": "project3",
+    "title": "Task Manager",
+    "image": "./images/project3.png",
+    "date": "2024-12-05",
+    "alt": "Task Manager App",
+    "liveUrl": "https://eb-nu.vercel.app/",
+    "githubUrl": "https://github.com/puspalal12/eb",
+    "description": "This is a detailed description of Task Manager.",
+    "techStack": "React,Tailwind",
+    "features": "Responsive design, concept of local storage, add edit delete the tasks."
+  },
+    {
+    "id": "project4",
+    "title": "Blood Donation App",
+    "image": "./images/project4.png",
+    "date": "2025-04-05",
+    "alt": "Blood donation App",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/puspalal12/blooddonate",
+    "description": "This is a detailed description of Blood Donation App.",
+    "techStack": "React.js (Vite), Tailwind CSS, Font Awesome Icons,React Hooks (useState, useEffect)",
+    "features": "Donor & Recipient Management,Intuitive UI/UX,"
+  }
+]
