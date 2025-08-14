@@ -46,5 +46,17 @@
     "description": "This is a detailed description of Blood Donation App.",
     "techStack": "React.js (Vite), Tailwind CSS, Font Awesome Icons,React Hooks (useState, useEffect)",
     "features": "Donor & Recipient Management,Intuitive UI/UX,"
+  },
+      {
+    "id": "project5",
+    "title": "Weather Forecast App",
+    "image": "./images/project5.png",
+    "date": "2025-08-014",
+    "alt": "Weather Forecast App",
+    "liveUrl": "https://weather-app-psi-seven-62.vercel.app/",
+    "githubUrl": "https://github.com/puspalal12/weather-app",
+    "description": "Get accurate, real-time weather updates, hourly and daily forecasts, severe weather alerts, and more. Stay prepared with interactive maps, UV index, and precipitation chances. Simple, user-friendly, and always up-to-date! ☀️🌧️❄️",
+    "techStack": "React.js (Vite), Tailwind CSS, Font Awesome Icons,React Hooks (useState, useEffect),API",
+    "features": "Real-Time Weather Data,Live Local Time,5 day forecast,Location Search"
   }
 ]
